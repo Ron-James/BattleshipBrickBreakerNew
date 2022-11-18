@@ -1,0 +1,411 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity Projects/BattleShipBRickBreaker - copy/BattleshipBrickBreaker/Battleship Brick Breaker
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+8464
+Successfully changed project path to: D:/Unity Projects/BattleShipBRickBreaker - copy/BattleshipBrickBreaker/Battleship Brick Breaker
+D:/Unity Projects/BattleShipBRickBreaker - copy/BattleshipBrickBreaker/Battleship Brick Breaker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 89.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/BattleShipBRickBreaker - copy/BattleshipBrickBreaker/Battleship Brick Breaker/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1236
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004349 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 84.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003300 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\BattleShipBRickBreaker - copy\BattleshipBrickBreaker\Battleship Brick Breaker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\BattleShipBRickBreaker - copy\BattleshipBrickBreaker\Battleship Brick Breaker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (293.7 KB). Loaded Objects now: 4202.
+Memory consumption went from 215.4 MB to 215.1 MB.
+Total: 3.209900 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.101800 ms MarkObjects: 2.715000 ms  DeleteObjects: 0.153600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 546540.792048 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_StretchPalet.mat
+  artifactKey: Guid(b0c7cf51d3fecb446ab93bf854419715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_StretchPalet.mat using Guid(b0c7cf51d3fecb446ab93bf854419715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635a81d289b2d49882453ddfc6dbbb35') in 0.105272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598327 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_ExplosionFlames Add.mat
+  artifactKey: Guid(d48723a9122613a46a57c70406594587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_ExplosionFlames Add.mat using Guid(d48723a9122613a46a57c70406594587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0691e68ac3ef5231c9ffb6ce175b6a') in 0.189373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.430881 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GlowCircle Add.mat
+  artifactKey: Guid(cd8002f70c22e4840bffd510c84d3c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GlowCircle Add.mat using Guid(cd8002f70c22e4840bffd510c84d3c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea3113b49f6ac59bccf887d6fed9d6c') in 0.126529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.457577 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GroundGlow Add.mat
+  artifactKey: Guid(e0d80b657ecab7c4b9ce24628b2dc682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GroundGlow Add.mat using Guid(e0d80b657ecab7c4b9ce24628b2dc682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7898832f20fba1e95d7b104a79a363') in 0.035473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2355.713294 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Additive.prefab
+  artifactKey: Guid(4ecfa3d3919108f4fbff80d1c4d920a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Additive.prefab using Guid(4ecfa3d3919108f4fbff80d1c4d920a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e1b1c6a47fe20c51b0704d147de0ba') in 0.204512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Black.prefab
+  artifactKey: Guid(6a3cb4ac8fa12944ba1233cbec0e9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Black.prefab using Guid(6a3cb4ac8fa12944ba1233cbec0e9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e9bcfef5d428b82f91fec11b34fbc2') in 0.085127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Gray.prefab
+  artifactKey: Guid(a24c2dc4ddb2fb34591d1bbab6a8354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Gray.prefab using Guid(a24c2dc4ddb2fb34591d1bbab6a8354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af08132257621ee45459869bce48d02') in 0.137947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.071625 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll Add.mat
+  artifactKey: Guid(08860f5a2ea791b418ad49e30b240d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll Add.mat using Guid(08860f5a2ea791b418ad49e30b240d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086a62ccf6c844fe19018d177bf2a510') in 0.042742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.960567 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat
+  artifactKey: Guid(34d513672558fe0478dd3a29e7f55db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat using Guid(34d513672558fe0478dd3a29e7f55db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcb188c198db75b0f3be14a14f2c70b') in 0.042785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.978328 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Black.prefab
+  artifactKey: Guid(6f8449a4663a4fd44b6140772d4f39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Black.prefab using Guid(6f8449a4663a4fd44b6140772d4f39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2a97d3488aa8b9dd7b580364292a9b') in 0.082394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.203218 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Gray.prefab
+  artifactKey: Guid(e37de961c0fe47b439a8a7c1c1b6213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Gray.prefab using Guid(e37de961c0fe47b439a8a7c1c1b6213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8137a325152815b3d9f80ee725496d79') in 0.347232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.316878 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Gray.prefab
+  artifactKey: Guid(e37de961c0fe47b439a8a7c1c1b6213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Gray.prefab using Guid(e37de961c0fe47b439a8a7c1c1b6213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4d353822fa395f2d66760eeaae277c') in 0.025677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.470500 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll SoftMult.mat
+  artifactKey: Guid(7cd0317a189d24e488c96376bf32b9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll SoftMult.mat using Guid(7cd0317a189d24e488c96376bf32b9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c905f554646edd1ea1a1537d846a5d2c') in 0.044354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.236199 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Black.prefab
+  artifactKey: Guid(6a3cb4ac8fa12944ba1233cbec0e9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Black.prefab using Guid(6a3cb4ac8fa12944ba1233cbec0e9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddbc1311eff5ff7900fb9cf33b8ab3d') in 0.035931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.299803 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeNoise.mat
+  artifactKey: Guid(0c4c5159dcddba345a2aede959b2b3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeNoise.mat using Guid(0c4c5159dcddba345a2aede959b2b3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6839bbe9d77678baad5f69a1f15c982c') in 0.032418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.417682 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Gray.prefab
+  artifactKey: Guid(a24c2dc4ddb2fb34591d1bbab6a8354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Gray.prefab using Guid(a24c2dc4ddb2fb34591d1bbab6a8354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b5d5d41fd9a044f69799315bb4b297') in 0.227837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.571789 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenadeWhite.mat
+  artifactKey: Guid(8125e28080ea54248a42c7c6494cd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenadeWhite.mat using Guid(8125e28080ea54248a42c7c6494cd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdee9f18970c78892235fb51066d5693') in 0.026725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.378620 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade White.prefab
+  artifactKey: Guid(b7a5dd96bb4187348909e660f427221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade White.prefab using Guid(b7a5dd96bb4187348909e660f427221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984b55780fdf04abfb7783fe8bcfcd9e') in 0.040419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 250.976497 seconds.
+  path: Assets/MyPrefabs/Consumables/Powerup Collectable.prefab
+  artifactKey: Guid(82d87a95ff51e2d4b88a194b31ed28c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Consumables/Powerup Collectable.prefab using Guid(82d87a95ff51e2d4b88a194b31ed28c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699294dc99bf5e90598fb9c3b23adb9e') in 0.422558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.952951 seconds.
+  path: Assets/Props_3D/Prefabs
+  artifactKey: Guid(3e0d2abd556454e4693df34f73b3d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs using Guid(3e0d2abd556454e4693df34f73b3d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9823cf3b965dc48a686b33a5724418') in 0.012433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.756289 seconds.
+  path: Assets/Props_3D/Prefabs/models
+  artifactKey: Guid(781f44410c2ab467481c1fd3ce1cbf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models using Guid(781f44410c2ab467481c1fd3ce1cbf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8fde2eb13ca52cb5aa63b85de45d0e') in 0.010556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props_3D/Prefabs/models/bag_lowpoly.prefab
+  artifactKey: Guid(644125e270f60478c95057119d395ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/bag_lowpoly.prefab using Guid(644125e270f60478c95057119d395ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24983bb936f3163e09002b5be52626ac') in 0.367420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props_3D/Prefabs/models/bottle3_lowpoly.prefab
+  artifactKey: Guid(647d701883c28458a9f74fca6d2c325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/bottle3_lowpoly.prefab using Guid(647d701883c28458a9f74fca6d2c325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741a01b684108f0d148c79ec8df70744') in 0.400902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props_3D/Prefabs/models/scroll_lowpoly.prefab
+  artifactKey: Guid(113d3c7c4938544b1a57292e377b472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/scroll_lowpoly.prefab using Guid(113d3c7c4938544b1a57292e377b472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7901a741a29d2e65b9c3584bc660f7cd') in 0.483973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Props_3D/Prefabs/models/coin_lowpoly.prefab
+  artifactKey: Guid(20d66d81b368b4f76844bc729c0ea51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/coin_lowpoly.prefab using Guid(20d66d81b368b4f76844bc729c0ea51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de85eac85e6fda86ea867bb650968fb') in 0.487016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props_3D/Prefabs/models/bottle2.prefab
+  artifactKey: Guid(d0834385148c44a2ab6c5f7fa178b30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/bottle2.prefab using Guid(d0834385148c44a2ab6c5f7fa178b30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae345b340ca7f8b1ba503ef01c7f1816') in 0.487770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Props_3D/Prefabs/models/Candle.prefab
+  artifactKey: Guid(bc50feda7b6f542449c7806e3bbe9971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/Candle.prefab using Guid(bc50feda7b6f542449c7806e3bbe9971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60aca7bef54e8c7f762a4af20226c77c') in 0.386589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props_3D/Prefabs/models/hourglass.prefab
+  artifactKey: Guid(81dde4db9e926495bbfae9480c3e2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/hourglass.prefab using Guid(81dde4db9e926495bbfae9480c3e2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f974c4257c6d804db16ad247f0de7993') in 0.112120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props_3D/Prefabs/models/powder.prefab
+  artifactKey: Guid(9b8620a18b5ca4311845cf75cecd9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/powder.prefab using Guid(9b8620a18b5ca4311845cf75cecd9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7fc46b7173b56f332c231e1e22b956') in 0.441434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props_3D/Prefabs/models/crystal_lowpoly.prefab
+  artifactKey: Guid(6a6cf11bdaae642549eccc3989f89280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/crystal_lowpoly.prefab using Guid(6a6cf11bdaae642549eccc3989f89280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01e7c177289aa892f41157f51ab410e') in 0.033715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props_3D/Prefabs/models/candle_lowpoly.prefab
+  artifactKey: Guid(dcb0fbb30585745568117cfe171f7a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/candle_lowpoly.prefab using Guid(dcb0fbb30585745568117cfe171f7a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca2515eb00e024c3d1ede597ba74533') in 0.145498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props_3D/Prefabs/models/watch_lowpoly.prefab
+  artifactKey: Guid(044448b78484a4cf2b89285c96a63997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/watch_lowpoly.prefab using Guid(044448b78484a4cf2b89285c96a63997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396eac2471a9ab4c19eda83baee32448') in 0.387815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Props_3D/Prefabs/models/barrel_lowpoly.prefab
+  artifactKey: Guid(828edd55097684d93a142e413dd18877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props_3D/Prefabs/models/barrel_lowpoly.prefab using Guid(828edd55097684d93a142e413dd18877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f43d73e92c57ebc1cd244f2f37286d5') in 0.940432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.093345 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX
+  artifactKey: Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX using Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06afeb86ea48c722e154f78d16d728f9') in 0.090488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.325927 seconds.
+  path: Assets/Free Assets/JMO Assets/Cartoon FX Easy Editor
+  artifactKey: Guid(7a7171bf41aeb6949b08451fbcd42dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/Cartoon FX Easy Editor using Guid(7a7171bf41aeb6949b08451fbcd42dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bf9bff8a5587a3206ad57776cc24db') in 0.012350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.823443 seconds.
+  path: Assets/Free Assets/JMO Assets/Cartoon FX Easy Editor/Editor
+  artifactKey: Guid(ef74fe7f8dfc6894481d107231650819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/Cartoon FX Easy Editor/Editor using Guid(ef74fe7f8dfc6894481d107231650819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470658b1a6d465bb57ae9f453f1a4ce4') in 0.010967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.772347 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts
+  artifactKey: Guid(6eccb7210bb2e95408062d2f52be5ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts using Guid(6eccb7210bb2e95408062d2f52be5ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349189f243fbc520f5c7b11b956028b4') in 0.011599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031222 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Concrete NoCollision.prefab
+  artifactKey: Guid(20b31fcfaed0cb842a56fbbe2419428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Concrete NoCollision.prefab using Guid(20b31fcfaed0cb842a56fbbe2419428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f05b57554e5a63ed28738e6486535d4') in 0.299567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood NoCollision.prefab
+  artifactKey: Guid(d39ab699aa314a147969fd483aa55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood NoCollision.prefab using Guid(d39ab699aa314a147969fd483aa55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c536a041cefcf3e3e1039cf4bf10e4') in 0.094314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood.prefab
+  artifactKey: Guid(ac1aa04288fad804ba1cd769f4377aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood.prefab using Guid(ac1aa04288fad804ba1cd769f4377aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb45c5647cddf3826dca33b18d0a345') in 0.035394 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shootable
+  - BombTrigger
+  - Ball
+  - Paddle
+  - Brick
+  - OutZone
+  - BulletDespawn
+  - FxTemporaire
+  - Backboard
+  - Right Tap Collider
+  - Left Tap Collider
+  - Barrier
+  - Arena
+  - OOB
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Paddles
+  - Water
+  - UI
+  - Bricks
+  - Consumeables
+  - Lighting
+  - Ground
+  - Postprocessing
+  - TapCollider
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
