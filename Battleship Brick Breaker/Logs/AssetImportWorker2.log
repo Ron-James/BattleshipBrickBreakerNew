@@ -231,3 +231,51 @@ Received Import Request.
   path: Assets/MyPrefabs/Brick Formations/Middle Layout.prefab
   artifactKey: Guid(496d31ae3a33bb7488438f330011380a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MyPrefabs/Brick Formations/Middle Layout.prefab using Guid(496d31ae3a33bb7488438f330011380a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aece1d141131b12b5d24d7cea8a99ec') in 0.231922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 603.341634 seconds.
+  path: Assets/Sound Files/Light.wav
+  artifactKey: Guid(f87cd5befcb38294f99a2e2a52405884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Files/Light.wav using Guid(f87cd5befcb38294f99a2e2a52405884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8978b37ee63074e01f2c30ed53ec9f23') in 0.087440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.832804 seconds.
+  path: Assets/MyPrefabs/Bricks/Ammo Brick.prefab
+  artifactKey: Guid(bf06a3c79f21abf4986f47edc536c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Bricks/Ammo Brick.prefab using Guid(bf06a3c79f21abf4986f47edc536c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d839fc5d2ddd5130723d25f20948e5') in 0.124220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.589840 seconds.
+  path: Assets/MyPrefabs/Bricks/Explosion Brick Variant.prefab
+  artifactKey: Guid(661fa8077b6fb644d9f2b760b2babddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Bricks/Explosion Brick Variant.prefab using Guid(661fa8077b6fb644d9f2b760b2babddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649b2a1d930640a2cde48f373c2dff03') in 1.087270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.581266 seconds.
+  path: Assets/MyPrefabs/Bricks/Explosion Brick Variant 2.prefab
+  artifactKey: Guid(df0d82aec765ff54490f52f07cc43437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Bricks/Explosion Brick Variant 2.prefab using Guid(df0d82aec765ff54490f52f07cc43437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436bbc994fc8278564dd5e3d9c5f1c19') in 1.374564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.713323 seconds.
+  path: Assets/MyPrefabs/Bricks/Explosion Brick Variant 2.prefab
+  artifactKey: Guid(df0d82aec765ff54490f52f07cc43437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Bricks/Explosion Brick Variant 2.prefab using Guid(df0d82aec765ff54490f52f07cc43437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294df930b03273bdc8c32db68b1e3d9e') in 2.014381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.463183 seconds.
+  path: Assets/MyPrefabs/Bricks/Explosion Brick Variant.prefab
+  artifactKey: Guid(661fa8077b6fb644d9f2b760b2babddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Bricks/Explosion Brick Variant.prefab using Guid(661fa8077b6fb644d9f2b760b2babddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317a7776e0e1cde9d8f1c6e822170dac') in 0.458368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.910438 seconds.
+  path: Assets/FC Pirate Music Pack [Lite]/SFX/Snare Stinger 1.wav
+  artifactKey: Guid(4941095b80498491786d3e14724c75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FC Pirate Music Pack [Lite]/SFX/Snare Stinger 1.wav using Guid(4941095b80498491786d3e14724c75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145b2dd6cfdbed3d5ead38af086aeae7') in 0.108752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.689680 seconds.
+  path: Assets/MyPrefabs/Bricks/Powerup Brick Variant.prefab
+  artifactKey: Guid(0ee3ab5b00e63e247ae20649f36d6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Bricks/Powerup Brick Variant.prefab using Guid(0ee3ab5b00e63e247ae20649f36d6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c058ebf652c4dac594b23bc9adf5daf') in 0.167855 seconds 

@@ -82,6 +82,11 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6855657831077883263, guid: df0d82aec765ff54490f52f07cc43437,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7885875656764031725, guid: df0d82aec765ff54490f52f07cc43437,
         type: 3}
       propertyPath: maxHealth
@@ -91,7 +96,7 @@ PrefabInstance:
         type: 3}
       propertyPath: hitSound.clip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: c1d344a49188de6469a0cdae07d2cb11, type: 3}
     - target: {fileID: 7885875656764031725, guid: df0d82aec765ff54490f52f07cc43437,
         type: 3}
       propertyPath: breakSound.clip

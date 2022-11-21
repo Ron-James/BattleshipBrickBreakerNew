@@ -144,7 +144,7 @@ PrefabInstance:
         type: 3}
       propertyPath: hitSound.clip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: c1d344a49188de6469a0cdae07d2cb11, type: 3}
     - target: {fileID: 790218555712783194, guid: 6cb226225a379bb4a9d4d14d15edfee5,
         type: 3}
       propertyPath: breakSound.clip
@@ -153,7 +153,7 @@ PrefabInstance:
     - target: {fileID: 790218555712783194, guid: 6cb226225a379bb4a9d4d14d15edfee5,
         type: 3}
       propertyPath: breakSound.volume
-      value: 0.7
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 790218555712783194, guid: 6cb226225a379bb4a9d4d14d15edfee5,
         type: 3}
@@ -189,6 +189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Explosion Brick Variant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081134066315390152, guid: 6cb226225a379bb4a9d4d14d15edfee5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4115446715010658223, guid: 6cb226225a379bb4a9d4d14d15edfee5,
         type: 3}

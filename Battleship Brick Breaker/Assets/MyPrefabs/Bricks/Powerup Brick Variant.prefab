@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 790218555712783194, guid: 6cb226225a379bb4a9d4d14d15edfee5,
+        type: 3}
+      propertyPath: breakSound.clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 22be238be2a6f894084c9f2e11ca7681, type: 3}
     - target: {fileID: 1475275683854668725, guid: 6cb226225a379bb4a9d4d14d15edfee5,
         type: 3}
       propertyPath: m_Name
