@@ -294,12 +294,12 @@ MonoBehaviour:
   hitSound:
     clip: {fileID: 8300000, guid: 7094c65c50b92804280bf92e41b56153, type: 3}
     src: {fileID: 0}
-    volume: 0.1
+    volume: 0.6
     soundCategory: 0
   breakSound:
     clip: {fileID: 8300000, guid: 1b49d04544d95614f92424cb1f589a91, type: 3}
     src: {fileID: 0}
-    volume: 0.1
+    volume: 0.8
     soundCategory: 0
   OnBrickBreak:
     m_PersistentCalls:

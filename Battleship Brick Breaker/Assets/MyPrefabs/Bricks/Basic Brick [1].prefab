@@ -125,12 +125,12 @@ MonoBehaviour:
   brickEffects: {fileID: 5785987585224941544}
   isBroken: 0
   hitSound:
-    clip: {fileID: 8300000, guid: 5687ac18d74621f4fac320514a0b3aa2, type: 3}
+    clip: {fileID: 8300000, guid: 9bc49429cbaf3894b8ff18a5827391e7, type: 3}
     src: {fileID: 0}
-    volume: 0.4
+    volume: 0.8
     soundCategory: 0
   breakSound:
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5687ac18d74621f4fac320514a0b3aa2, type: 3}
     src: {fileID: 0}
     volume: 0.6
     soundCategory: 0

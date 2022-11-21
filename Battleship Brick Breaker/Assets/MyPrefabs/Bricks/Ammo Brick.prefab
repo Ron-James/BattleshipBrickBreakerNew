@@ -127,7 +127,7 @@ MonoBehaviour:
   hitSound:
     clip: {fileID: 8300000, guid: 01db32cbb13d64f4eb2daf2b438b3295, type: 3}
     src: {fileID: 0}
-    volume: 0.1
+    volume: 0.7
     soundCategory: 0
   breakSound:
     clip: {fileID: 0}
