@@ -23,7 +23,7 @@ public class SceneController : Singleton<SceneController>
 
     public void LoadLocalCoop(int level){
         GameManager.currentLevel = level;
-        LoadScene(2);
+        LoadScene(1);
     }
 
     public void RestartCurrentScene(){

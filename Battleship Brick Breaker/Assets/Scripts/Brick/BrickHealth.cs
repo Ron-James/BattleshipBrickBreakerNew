@@ -32,6 +32,7 @@ public class BrickHealth : MonoBehaviour
 
     void Start()
     {
+        isBroken = false;
         feedbackOverlay.SetActive(false);
         hitSound.src = GetComponent<AudioSource>();
         breakSound.src = GetComponent<AudioSource>();
@@ -52,7 +53,22 @@ public class BrickHealth : MonoBehaviour
     {
         
     }
+    IEnumerator BreakDelay(float period, bool player1){
+        float time = 0;
+        isBroken = true;
+        while(true){
+            time += Time.deltaTime;
 
+            if(time >= period){
+                BreakBrick(player1);
+                break;
+
+            }
+            else{
+                yield return new WaitForFixedUpdate();
+            }
+        }
+    }
     public void TakeDamge(float amount, bool player1)
     {
         currentHealth -= amount;
@@ -63,9 +79,13 @@ public class BrickHealth : MonoBehaviour
         }
         if (currentHealth <= 0)
         {
-            BreakBrick(player1);
-            OnBrickBreak.Invoke();
-            breakSound.PlayOnce();
+            if(!isBroken){
+                StartCoroutine(BreakDelay(0.06f, player1));
+                //BreakBrick(player1);
+                OnBrickBreak.Invoke();
+                breakSound.PlayOnce();
+            }
+            
             
         }
         else
@@ -96,7 +116,7 @@ public class BrickHealth : MonoBehaviour
     {
         //StartCoroutine(DisableColliderDelay(0.2f));
         SetColliderActive(false);
-        isBroken = true;
+        
         Vector3 position = transform.position;
         if (crack != null)
         {

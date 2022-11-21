@@ -114,11 +114,15 @@ public class GameManager : Singleton<GameManager>
     }
 
     public void LoadLevelLayout(){
+        if(levelLayouts.Length == 0){
+            return;
+        }
         int level = currentLevel;
         if(level < 0 || level > levelLayouts.Length){
             currentLevel = 0;
             level = 0;
         }
+        
 
         for(int loop = 0; loop < levelLayouts.Length; loop++){
             //levelLayouts[loop].transform.position = Vector3.zero;

@@ -110,6 +110,7 @@ public class BallPhysics : MonoBehaviour
 
         if (currentSpeed > 0)
         {
+            currentVelocityDirection.y = 0;
             Debug.DrawLine(transform.position, transform.position + (currentVelocityDirection * 2), Color.red, Time.fixedDeltaTime);
             float distance = currentSpeed * Time.fixedDeltaTime;
             Vector3 newPosition = transform.position + (currentVelocityDirection.normalized * distance);//position to move ball based on current speed and direction
@@ -209,11 +210,13 @@ public class BallPhysics : MonoBehaviour
         if (colliders.Length > 1)
         {
             Debug.Log("2 colliders");
+
             if (other.collider == colliders[0])
             {
                 Vector3[] normals = CollidingNormals();
                 normal = ResultantNormal(normals);
                 rotate = false;
+                Debug.Break();
             }
             else
             {
@@ -301,7 +304,7 @@ public class BallPhysics : MonoBehaviour
         //difference variables which will be small if reflected vector is very similar to initial velocity vector
         float diffZ = 1 - Mathf.Abs(reflectedVector.normalized.z);
         float diffX = 1 - Mathf.Abs(reflectedVector.normalized.x);
-        /*
+        
         if (normal == Vector3.right || normal == Vector3.left)
         {
             if (diffX <= 0.001f)
@@ -325,7 +328,7 @@ public class BallPhysics : MonoBehaviour
                 currentVelocityDirection = reflectedVector.normalized;
             }
         }
-        */
+        
         if (normal == Vector3.forward || normal == Vector3.back)
         {
             if (diffZ <= 0.001f) // if difference between initial vector and reflected vecotr Z component is very small
@@ -384,12 +387,12 @@ public class BallPhysics : MonoBehaviour
                     int random = Random.Range(0, 2);
                     if (random == 0)
                     {
-                        reflectedVector = Quaternion.AngleAxis(-1 * angle, Vector3.up) * reflectedVector; // ensure reflected vector isn't parralel with initial vector
+                        reflectedVector = Quaternion.AngleAxis(-1 * 30f, Vector3.up) * reflectedVector; // ensure reflected vector isn't parralel with initial vector
                         currentVelocityDirection = reflectedVector.normalized;
                     }
                     else
                     {
-                        reflectedVector = Quaternion.AngleAxis(angle, Vector3.up) * reflectedVector;
+                        reflectedVector = Quaternion.AngleAxis(30, Vector3.up) * reflectedVector;
                         currentVelocityDirection = reflectedVector.normalized;
                     }
                 }
@@ -415,7 +418,7 @@ public class BallPhysics : MonoBehaviour
 
                     Debug.Log(reflectedVector.normalized + " initial");
 
-                    reflectedVector = Quaternion.AngleAxis(rotateDirection * angle, Vector3.up) * reflectedVector; // ensure reflected vector isn't parralel with initial vector
+                    reflectedVector = Quaternion.AngleAxis(rotateDirection * 10f, Vector3.up) * reflectedVector; // ensure reflected vector isn't parralel with initial vector
                     currentVelocityDirection = reflectedVector.normalized;
                 }
                 else
@@ -533,8 +536,8 @@ public class BallPhysics : MonoBehaviour
             yield return null;
         }
         transform.position = point.position;
-        Vector3 direction = -GetInwardSign() * Vector3.right;
-        direction = Quaternion.AngleAxis(Random.Range(-15, 16), Vector3.up) * direction;
+        Vector3 direction = point.right;
+        direction = Quaternion.AngleAxis(Random.Range(-30, 31), Vector3.up) * direction;
         direction = direction.normalized;
 
 

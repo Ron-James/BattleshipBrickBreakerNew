@@ -26,9 +26,6 @@ public class PaddleController : MonoBehaviour
     PowerUpManager powerUpManager;
     HandicapController handicapController;
 
-    float currentSliderValue;
-    float paddleWidth;
-    float backboardOffset = 0;
 
     Vector3 defaultPos;
     public bool canHitBall;
@@ -71,9 +68,9 @@ public class PaddleController : MonoBehaviour
 
 
         defaultPos = transform.position;
-        paddleWidth = transform.localScale.z;
-        currentSliderValue = slider.value;
-        backboardOffset = backboard.position.z;
+        //paddleWidth = transform.localScale.z;
+        //currentSliderValue = slider.value;
+        //backboardOffset = backboard.position.z;
         //GetComponentInChildren<MeshRenderer>().material = mainMaterial;
 
 
