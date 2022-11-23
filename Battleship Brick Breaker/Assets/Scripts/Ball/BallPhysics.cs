@@ -216,7 +216,7 @@ public class BallPhysics : MonoBehaviour
                 Vector3[] normals = CollidingNormals();
                 normal = ResultantNormal(normals);
                 rotate = false;
-                //Debug.Break();
+                Debug.Break();
             }
             else
             {

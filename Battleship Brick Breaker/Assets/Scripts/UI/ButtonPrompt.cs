@@ -27,13 +27,6 @@ public class ButtonPrompt : MonoBehaviour
     }
     public void StopFadeFlash(){
         isStopped = true;
-        prompt.gameObject.SetActive(false);
-    }
-
-    public void SetPromptAlpha(float alpha){
-        Color color = prompt.color;
-        color.a = alpha;
-        prompt.color = color;
     }
     public void StartFadeFlash(){
         
