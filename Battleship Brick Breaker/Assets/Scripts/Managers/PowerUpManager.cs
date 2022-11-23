@@ -269,7 +269,7 @@ public class PowerUpManager : MonoBehaviour
                 cannonBtn.GetComponent<CannonButton>().TripleCannonIndicator.SetActive(true);
                 tripleCannonText.FlashText();
                 currentPowerUps[powerUp] = true;
-                artillery.Fire();
+                artillery.Fire(false);
                 break;
             
             case 7:
