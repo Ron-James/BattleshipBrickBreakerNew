@@ -32,6 +32,7 @@ public class BrickHealth : MonoBehaviour
 
     void Start()
     {
+        SetYPosition();
         isBroken = false;
         feedbackOverlay.SetActive(false);
         hitSound.src = GetComponent<AudioSource>();
@@ -68,6 +69,11 @@ public class BrickHealth : MonoBehaviour
                 yield return new WaitForFixedUpdate();
             }
         }
+    }
+    public void SetYPosition(){
+        Vector3 position = transform.position;
+        position.y = 1; 
+        transform.position = position;
     }
     public void TakeDamge(float amount, bool player1)
     {

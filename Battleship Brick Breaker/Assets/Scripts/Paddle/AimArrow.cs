@@ -201,6 +201,9 @@ public class AimArrow : MonoBehaviour
                 arrow.enabled = false;
                 break;
             }
+            if(GameManager.instance.TouchInField(out int index, out Vector3 position, player1)){
+                StopAiming();
+            }
             if (aimTime <= 0)
             {
                 isAiming = false;

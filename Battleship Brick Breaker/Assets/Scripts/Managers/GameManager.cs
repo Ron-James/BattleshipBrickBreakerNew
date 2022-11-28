@@ -109,8 +109,9 @@ public class GameManager : Singleton<GameManager>
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            WinGame(true);
+            AddScore(true);
         }
+    
     }
 
     public void LoadLevelLayout(){
@@ -271,7 +272,7 @@ public class GameManager : Singleton<GameManager>
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.touches[loop].position);
                 RaycastHit hit;
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit, tapColliders))
                 {
                     if (player1)
                     {

@@ -390,7 +390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.7
   paddle: {fileID: 0}
-  bounciness: 1.001
+  bounciness: 1.01
   collisionLayer:
     serializedVersion: 2
     m_Bits: 584

@@ -96,6 +96,14 @@ public class TutorialPrompt : MonoBehaviour
             return hasAckP2;
         }
     }
+    public void Acknowledge(bool player1){
+        if(player1){
+            hasAckP1 = true;
+        }
+        else{
+            hasAckP2 = true;
+        }
+    }
     public void SetAcknowledge(bool ack, bool player1){
         if(player1){
             hasAckP1 = ack;

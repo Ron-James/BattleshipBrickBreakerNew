@@ -58,7 +58,7 @@ public class Bullet : MonoBehaviour
                             paddle.gameObject.GetComponentInChildren<PaddleSoundBox>().boatHit.PlayOnce();
                             GameManager.instance.ChangeAllBalls(player1);
                             DisableBullet();
-                            GameManager.instance.GetPaddle(player1).Ball.GetComponent<PlayerTracker>().BuffBallDamage(5);
+                            GameManager.instance.GetPaddle(player1).Ball.GetComponent<PlayerTracker>().BuffBallDamage(GameManager.instance.CannonballHitPenalty);
                             AssetManager.instance.GetFireballTextFlash(player1).FlashText();
 
                         }
